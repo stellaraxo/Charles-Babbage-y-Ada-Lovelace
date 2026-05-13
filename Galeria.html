@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería — Charles Babbage y Ada Lovelace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="Logo">
+            <h1>Charles Babbage y Ada Lovelace</h1>
+        </div>
+        <nav>
+            <a href="index.html">Introducción</a>
+            <a href="Babbage.html">Charles Babbage</a>
+            <a href="Lovelace.html">Ada Lovelace</a>
+            <a href="Colaboracion.html">Colaboraciones</a>
+            <a href="Galeria.html" class="activo">Galería</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Galería de trabajos del semestre.</h2>
+    </main>
+
+    
+    <main>
+        <div class="galeria-wrapper">
+            <div class="galeria-grid">
+
+                <!-- 1 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto1.jpg">
+                    </div>
+                    <div class="caption-overlay">Documento que relata la historia de Charles Babbage.</div>
+                </div>
+
+                <!-- 2 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto2.jpg">
+                    </div>
+                    <div class="caption-overlay">Tabla de datos en Excel</div>
+                </div>
+
+                <!-- 3 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto3.jpg">
+                    </div>
+                    <div class="caption-overlay">Infografia sobre Youtube</div>
+                </div>
+
+                <!-- 4 — wide -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto4.png">
+                    </div>
+                    <div class="caption-overlay">Pagina web sobre la capacitación</div>
+                </div>
+
+                <!-- 5 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto5.png">
+                    </div>
+                    <div class="caption-overlay">Infografía sobre Adobe Illustrator</div>
+                </div>
+
+                <!-- 6 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto6.jpg">
+                    </div>
+                    <div class="caption-overlay">Diseño sobre nuestro futuro profesional</div>
+                </div>
+
+                <!-- 7 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto7.jpg">
+                    </div>
+                    <div class="caption-overlay">App informativa del dia de muertos</div>
+                </div>
+
+                <!-- 8 — wide -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto8.jpg">
+                    </div>
+                    <div class="caption-overlay">Diagrama entidad-relacion</div>
+                </div>
+
+                <!-- 9 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto9.jpg">
+                    </div>
+                    <div class="caption-overlay">Programa en C++</div>
+                </div>
+
+                <!-- 10 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        
+                        <img src="/img/foto10.jpg">
+                    </div>
+                    <div class="caption-overlay">Instalacion de un SO</div>
+                </div>
+
+                <!-- 11 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto11.jpeg">
+                    </div>
+                    <div class="caption-overlay">Interfaz de un programa basado en un SI</div>
+                </div>
+
+                <!-- 12 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto12.jpg">
+                    </div>
+                    <div class="caption-overlay">Mantenimiento preventivo de una PC</div>
+                </div>
+
+                <!-- 13 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto13.png">
+                    </div>
+                    <div class="caption-overlay">Manejo de Cisco Packet Tracer</div>
+                </div>
+
+                <!-- 14 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto14.jpg">
+                    </div>
+                    <div class="caption-overlay">Proyecto final de MIT App Inventor</div>
+                </div>
+
+                <!-- 15 -->
+                <div class="galeria-item" onclick="openLightbox(this)">
+                    <div class="placeholder-img">
+                        <img src="/img/foto15.jpg">
+                    </div>
+                    <div class="caption-overlay">Diagrama de flujo de un programa en Pseint</div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close" onclick="closeLightbox()">✕</span>
+        <img id="lightbox-img" src="" alt="">
+    </div>
+
+   
+    <main>
+        <div class="forms-placeholder">
+            
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOAVFS2Me-buuecpngNSzoudQ-cV17UXHHwTxkWltLLG_T6Q/viewform?embedded=true" width="640" height="1689" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+           
+        </div>
+    </main>
+
+    <footer>
+        <div class="persona">
+            <img src="img/Medrano.jpg" alt="Medrano">
+            <p>Medrano Ortíz Mateo Julián - 23190769</p>
+        </div>
+        <div class="persona">
+            <img src="img/Gonzalez.jpg" alt="Gonzalez">
+            <p>González Calvillo Axel Gabriel - 23190074</p>
+        </div>
+    </footer>
+
+    <script>
+        function openLightbox(item) {
+            const img = item.querySelector('img');
+            if (!img) return; // placeholder, no real image yet
+            document.getElementById('lightbox-img').src = img.src;
+            document.getElementById('lightbox').classList.add('open');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('open');
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+    </script>
+
+</body>
+</html>
